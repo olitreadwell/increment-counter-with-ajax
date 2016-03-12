@@ -1,0 +1,29 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Clover Incrementer</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+    <link href="//fonts.googleapis.com/css?family=Lato:100,300,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href="/img/clover-icon.png" />
+    <link href="/css/main.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <main>
+      <p id="value"><%= @counter.value %></p>
+      <form method="POST" action="/increment_counter">
+        <input type="hidden" name="_method" value="PUT"></input>
+        <div><input id="increment" type="submit" value="Increment Counter" /></div>
+      </form>
+      </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+body {
+  font-family: Lato, sans-serif;
+}
+
+#increment {
+  font-size: 2em;
+  color: #FFF;
+  background-color: #009CF5;
+  border: none;
+  font-weight: lighter;
+  padding: 6px 60px 8px 60px;
+  border-radius: 5px;
+}
+
+#value {
+  font-size: 5em;
+  font-weight: bolder;
+  margin: 0;
+}
