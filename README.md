@@ -1,8 +1,8 @@
-# Oli Treadwell
+# increment-counter-with-ajax
 
-## A simple coding test
+## A simple counter app
 
-Create a single page web application that increments a counter, storing the value server side.
+A single page web application that increments a counter, storing the value server side.
 
 * Use whatever technology you are comfortable with
 * Commit regularly
@@ -22,4 +22,4 @@ Create a single page web application that increments a counter, storing the valu
 
 - [X] use asynchronous javascript / AJAX to increment the counter
 
-[Link to Heroku App](https://clover-au-counter-with-ajax.herokuapp.com/)
+[Link to Heroku App](https://increment-counter-with-ajax.herokuapp.com/)
